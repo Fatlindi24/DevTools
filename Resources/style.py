@@ -13,8 +13,7 @@ STYLE_CSS = """
     text-align: center;
     height: auto;
     position: relative;
-    overflow: hidden; /* Prevent overflow */
-    box-sizing: border-box; /* Ensure padding is included in the width/height */
+    overflow: hidden
     }
 
     .card img {
