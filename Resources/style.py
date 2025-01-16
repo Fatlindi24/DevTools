@@ -13,7 +13,6 @@ STYLE_CSS = """
     text-align: center;
     height: auto;
     position: relative;
-    max-width: 300px; /* Ensure a fixed width */
     overflow: hidden; /* Prevent overflow */
     box-sizing: border-box; /* Ensure padding is included in the width/height */
     }
