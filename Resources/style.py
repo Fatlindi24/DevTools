@@ -27,18 +27,12 @@ STYLE_CSS = """
         font-weight: bold;
         color: #333;
         margin: 5px 0;
-        word-wrap: break-word; /* Allow the title to wrap to the next line if too long */
-        white-space: normal; /* Allow text to break into multiple lines */
-        max-width: 100%; /* Make sure the title doesn't overflow the container */
     }
 
     .card-description {
         font-size: 14px;
         color: #555;
         margin-bottom: 20px;
-        flex-grow: 1; /* Allow description to grow without pushing the footer down */
-        overflow: hidden; /* Ensure no overflow */
-        text-overflow: ellipsis; /* Add ellipsis if content overflows */
     }
 
     .card-footer {
