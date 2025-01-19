@@ -7,7 +7,6 @@ STYLE_CSS = """
     align-items: center;
     background-color: #f8f9fa;
     padding: 15px;
-    margin: 10px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
