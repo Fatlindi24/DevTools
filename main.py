@@ -45,8 +45,8 @@ def display_tools(page_module, tools_list, custom_css):
         if search_term.lower() in tool['name'].lower() or search_term.lower() in tool['description'].lower()
     ]
 
-    # Use Streamlit columns with adjusted ratios
-    columns = st.columns([1, 1, 1])  # Three equal-width columns
+    # Display the tools in columns
+    columns = st.columns(3)
     for idx, tool in enumerate(filtered_tools):
         col = columns[idx % 3]  # Cycle through columns
         with col:
@@ -62,7 +62,6 @@ def display_tools(page_module, tools_list, custom_css):
                     </div>
                 </div>
             """, unsafe_allow_html=True)
-
 
 # Display content based on the selected menu item
 if selected in PAGE_MODULES:
