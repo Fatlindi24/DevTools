@@ -10,7 +10,7 @@ FREE_API_TOOLS = [
         "name": "dummyjson.com",
         "description": "DummyJSON is a free, open-source API that provides mock JSON data for testing and prototyping, including products, users, and other sample data for developers.",
         "logo_url": "https://cdn-icons-png.flaticon.com/512/2164/2164832.png",
-        "store_link": "https://dev-tools.streamlit.app/",
+        "store_link": "https://dummyjson.com/",
         "button_name": "Visit Website"
     },
     {
