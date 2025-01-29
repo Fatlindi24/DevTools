@@ -7,13 +7,6 @@ content = "Here are some APIs you can use for free."
 # List of Free API tools
 FREE_API_TOOLS = [
     {
-        "name": "dummyjson.com",
-        "description": "DummyJSON is a free, open-source API that provides mock JSON data for testing and prototyping, including products, users, and other sample data for developers.",
-        "logo_url": "https://cdn-icons-png.flaticon.com/512/2164/2164832.png",
-        "store_link": "https://dev-tools.streamlit.app/",
-        "button_name": "Visit Website"
-    },
-    {
         "name": "jsonplaceholder.typicode.com",
         "description": "JSONPlaceholder is a free online REST API for testing and prototyping. It provides fake data for resources like posts, comments, and users, making it ideal for developers building and testing applications.",
         "logo_url": "https://cdn-icons-png.flaticon.com/512/2164/2164832.png",

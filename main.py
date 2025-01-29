@@ -18,7 +18,7 @@ PAGE_MODULES = {
     "React": react,
     "Django": django,
     "VSCode Extensions": vscode_extensions,
-    "Web Scraping": web_scraping
+    "Web Scraping": web_scraping,
 }
 
 # 1. Sidebar menu with all the required items
@@ -27,7 +27,7 @@ with st.sidebar:
         "UpBizz Tools",
         list(PAGE_MODULES.keys()),  # Dynamically use the keys of the PAGE_MODULES dict
         icons=[
-            "house", "cloud", "puzzle", "tools", "palette", "terminal", 
+            "house", "cloud", "puzzle", "tools", "palette", "terminal",
             "code-slash", "server", "link", "plug", "search", "gear"
         ],
         menu_icon="cast",
